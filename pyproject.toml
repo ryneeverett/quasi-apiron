@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "quasi-apiron"
+version = "0.1.0"
+description = ""
+authors = ["ryneeverett <ryneeverett@gmail.com>"]
+readme = "README.md"
+packages = [{include = "quasi_apiron"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+apiron = "*"
+requests = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
